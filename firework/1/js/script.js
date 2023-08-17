@@ -2118,7 +2118,7 @@ const Spark = {
 
 
 const soundManager = {
-	baseURL: 'audio',
+	baseURL: 'audio/',
 	ctx: new (window.AudioContext || window.webkitAudioContext),
 	sources: {
 		lift: {
@@ -2126,9 +2126,9 @@ const soundManager = {
 			playbackRateMin: 0.85,
 			playbackRateMax: 0.95,
 			fileNames: [
-				'audio/lift1.mp3',
-				'audio/lift2.mp3',
-				'audio/lift3.mp3'
+				'lift1.mp3',
+				'lift2.mp3',
+				'lift3.mp3'
 			]
 		},
 		burst: {
@@ -2136,8 +2136,8 @@ const soundManager = {
 			playbackRateMin: 0.8,
 			playbackRateMax: 0.9,
 			fileNames: [
-				'audio/burst1.mp3',
-				'audio/burst2.mp3'
+				'burst1.mp3',
+				'burst2.mp3'
 			]
 		},
 		burstSmall: {
@@ -2145,21 +2145,21 @@ const soundManager = {
 			playbackRateMin: 0.8,
 			playbackRateMax: 1,
 			fileNames: [
-				'audio/burst-sm-1.mp3',
-				'audio/burst-sm-2.mp3'
+				'burst-sm-1.mp3',
+				'burst-sm-2.mp3'
 			]
 		},
 		crackle: {
 			volume: 0.2,
 			playbackRateMin: 1,
 			playbackRateMax: 1,
-			fileNames: ['audio/crackle1.mp3']
+			fileNames: ['crackle1.mp3']
 		},
 		crackleSmall: {
 			volume: 0.3,
 			playbackRateMin: 1,
 			playbackRateMax: 1,
-			fileNames: ['audio/crackle-sm-1.mp3']
+			fileNames: ['crackle-sm-1.mp3']
 		}
 	},
 
