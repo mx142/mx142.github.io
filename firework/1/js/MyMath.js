@@ -1,5 +1,5 @@
 /*
-MX博客wwru.cn
+MX博客www.imxbk.com
 */
 const MyMath = (function MyMathFactory(Math) {
 
